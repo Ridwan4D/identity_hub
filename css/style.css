@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.font_inter {
+    font-family: "Inter", serif;
+}
+
+.font_source_code {
+    font-family: "Source Code Pro", serif;
+}
+
+.font_sora {
+    font-family: "Sora", serif;
+}
+
+.font_aeonik {
+    font-family: "Aeonik";
+}
