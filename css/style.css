@@ -33,23 +33,23 @@
 
 .body_bg {
     background-color: #0E0C15;
+    background-image: url('../images/hero_bg.png');
+    z-index: -1;
 }
 
 /* --------- navbar section start -------------- */
-.nav_container {
+.navbar {
+    padding: 10px 12px;
     margin: 20px 0;
-    padding: 0 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: #0E0C15;
 }
 
 .nav-item>.font_aeonik {
     color: #CAD1E9;
 }
 
-.navbar {
-    padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-}
 
 .nav_end_btn {
     padding: 12px 20px;
@@ -72,3 +72,10 @@
 }
 
 /* --------- navbar section end -------------- */
+
+/* --------- hero section start -------------- */
+#hero_section {}
+
+
+
+/* --------- hero section end -------------- */
