@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
+:root {
+    --primary-color: #CAC6DD;
+    --secondary-color: white;
+}
+
+.primary_color {
+    color: var(--primary-color);
+}
 
 * {
     margin: 0;
@@ -45,11 +53,6 @@
     background-color: #0E0C15;
 }
 
-.nav-item>.font_aeonik {
-    color: #CAD1E9;
-}
-
-
 .nav_end_btn {
     padding: 12px 20px;
     border: none;
@@ -62,7 +65,7 @@
 
 .nav_end_btn::before {
     content: '';
-    border-radius: 12px;
+    border-radius: 11px;
     position: absolute;
     inset: 0.15em;
     background-color: #0E0C15;
@@ -103,9 +106,82 @@
     right: 34px;
 }
 
-.ellips_15{
+.ellips_15 {
+    /* width: 100%; */
     top: -25px;
-    transform: translateX(25%);
+    left: 326px;
+}
+
+.ellips_16 {
+    top: -97px;
+    left: 15px;
+    width: 99%;
+    z-index: -1;
+}
+
+.circle_1 {
+    top: 190px;
+    left: 358px;
+}
+
+.circle_1_1 {
+    width: 8px;
+    height: 8px;
+    top: 78px;
+    right: 408px;
+}
+
+.circle_2 {
+    top: 536px;
+    left: 316px;
+}
+
+.hero_header {
+    padding-top: 64px;
+}
+
+.hero_header>.nav_end_btn::before {
+    content: '';
+    border-radius: 38px;
+    position: absolute;
+    inset: 0.15em;
+    background-color: #0E0C15;
+    box-shadow:
+        inset 0 0 10px rgba(221, 220, 220, 0.16),
+        0 4px 60px 10px rgba(243, 60, 191, 0.459);
+    z-index: -1;
+}
+
+.hero_title {
+    font-size: 60px;
+    line-height: 72px;
+    background: linear-gradient(to bottom, #F33CC0, #4349FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero_title_span {
+    width: 264px;
+    border-radius: 4px;
+    border-width: 6px;
+    position: relative;
+    background: linear-gradient(to bottom, #fb81ff, #4349FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero_title_span::after {
+    content: url('../images/curb_underline.svg');
+    width: 264px;
+    height: 6px;
+    position: absolute;
+    left: -17px;
+    top: 28px;
+}
+
+.hero_desc {
+    font-size: 24px;
+    line-height: 33px;
 }
 
 /* --------- hero section end -------------- */

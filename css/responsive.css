@@ -1,7 +1,14 @@
+@media (min-width:1880px) {
+    .ellips_15 {
+        display: block !important;
+    }
+}
+
 @media (min-width:601px)and(max-width:768px) {
     .container {
         padding: 0 10px;
     }
+
     .navbar {
         margin: 0 10px;
     }
@@ -37,4 +44,27 @@
     }
 
     /* ------ navbar end -------- */
+
+    /* ------ hero section start -------- */
+    .hero_header{
+        padding-top: 35px;
+    }
+    .hero_title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .hero_title_span::after {
+        left: -79px;
+        top: 22px;
+    }
+
+    .hero_desc {
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ------ hero section end -------- */
+
 }
