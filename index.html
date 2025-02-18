@@ -14,9 +14,37 @@
 
 <body class="body_bg text-white">
     <!-- header section started -->
-    <header>
-        <nav class="container">
+    <header class="container row mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav_container col-12 col-xl-11 mx-lg-auto">
+            <a class="navbar-brand text-white d-flex gap-2" href="#"><img src="./images/site-logo.svg" alt=""><span class="font_source_code fw-bold">IdentityHub</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse ms-md-2 ms-lg-auto d-lg-flex justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto d-lg-flex gap-1 gap-md-2 gap-lg-4">
+                    <li class="nav-item active">
+                        <a class="nav-link font_aeonik" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font_aeonik" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font_aeonik" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font_aeonik" href="#">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font_aeonik" href="#">About us</a>
+                    </li>
+                </ul>
+                <div class="form-inline my-2 my-lg-0 nav_end">
+                    <button class="text-white bg-transparent nav_end_btn d-flex justify-content-center align-items-center gap-1">Start free trial <img src="./images/nav_arrow.svg" alt=""></button>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- header section end -->

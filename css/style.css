@@ -10,6 +10,11 @@
     font-style: normal;
 }
 
+.container {
+    max-width: 1320px;
+    padding: 0 30px;
+}
+
 .font_inter {
     font-family: "Inter", serif;
 }
@@ -29,3 +34,39 @@
 .body_bg {
     background-color: #0E0C15;
 }
+
+/* --------- navbar section start -------------- */
+.nav_container {
+    margin: 20px 0;
+    padding: 0 12px;
+}
+
+.nav-item>.font_aeonik {
+    color: #CAD1E9;
+}
+
+.navbar {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+.nav_end_btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(to right, #090EDB, #8D1EA2);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.nav_end_btn::before {
+    content: '';
+    position: absolute;
+    inset: 0.15em;
+    background-color: #0E0C15;
+    z-index: -1;
+}
+
+/* --------- navbar section end -------------- */

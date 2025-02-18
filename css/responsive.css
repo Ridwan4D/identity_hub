@@ -1,0 +1,40 @@
+@media (min-width:601px)and(max-width:768px) {
+    .container {
+        padding: 0 10px;
+    }
+    .navbar {
+        margin: 0 10px;
+    }
+
+}
+
+
+
+
+@media(max-width:600px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    /* ------ navbar start -------- */
+    .nav_container {
+        margin: 0;
+    }
+
+    .navbar {
+        padding: 10px 0;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0;
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    /* ------ navbar end -------- */
+}
