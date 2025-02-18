@@ -63,9 +63,11 @@
 
 .nav_end_btn::before {
     content: '';
+    border-radius: 12px;
     position: absolute;
     inset: 0.15em;
     background-color: #0E0C15;
+    box-shadow: inset 0 0 10px rgba(221, 220, 220, 0.16);
     z-index: -1;
 }
 
