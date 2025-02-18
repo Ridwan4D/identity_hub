@@ -34,7 +34,6 @@
 .body_bg {
     background-color: #0E0C15;
     background-image: url('../images/hero_bg.png');
-    z-index: -1;
 }
 
 /* --------- navbar section start -------------- */
@@ -74,8 +73,39 @@
 /* --------- navbar section end -------------- */
 
 /* --------- hero section start -------------- */
-#hero_section {}
+#hero_section {
+    height: 900px;
+}
 
+.plus_1,
+.plus_2,
+.plus_3,
+.plus_4 {
+    opacity: .1;
+}
 
+.plus_1 {
+    left: 34px;
+}
+
+.plus_2 {
+    right: 34px;
+}
+
+.plus_3 {
+    bottom: 246px;
+    left: 34px;
+
+}
+
+.plus_4 {
+    bottom: 246px;
+    right: 34px;
+}
+
+.ellips_15{
+    top: -25px;
+    transform: translateX(25%);
+}
 
 /* --------- hero section end -------------- */
