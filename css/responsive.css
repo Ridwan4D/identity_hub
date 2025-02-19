@@ -15,6 +15,22 @@
 
 }
 
+@media(min-width:601px) and (max-width:768px) {
+
+    /* hero section start */
+    .hero_title {
+        font-size: 49px;
+        line-height: 67px;
+    }
+
+    .hero_card,
+    .hero_right_card>.hero_card {
+        width: 70%;
+    }
+
+    /* hero section end */
+
+}
 
 
 
@@ -46,9 +62,10 @@
     /* ------ navbar end -------- */
 
     /* ------ hero section start -------- */
-    .hero_header{
+    .hero_header {
         padding-top: 35px;
     }
+
     .hero_title {
         font-size: 25px;
         line-height: 36px;
@@ -64,6 +81,28 @@
         font-size: 16px;
         line-height: 22px;
     }
+
+    .circle_3,
+    .circle_2,
+    .circle_1_1,
+    .circle_1 {
+        display: none;
+    }
+
+    .hero_title_span::after {
+        content: none;
+        width: 264px;
+        height: 6px;
+        position: absolute;
+        left: -17px;
+        top: 28px;
+    }
+
+    .hero_card,
+    .hero_right_card>.hero_card {
+        width: 100%;
+    }
+
 
     /* ------ hero section end -------- */
 

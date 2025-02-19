@@ -3,6 +3,8 @@
 :root {
     --primary-color: #CAC6DD;
     --secondary-color: white;
+    --gradient-one: #090EDB;
+    --gradient-two: #DA24BB;
 }
 
 .primary_color {
@@ -53,6 +55,11 @@
     background-color: #0E0C15;
 }
 
+.nav-item>.nav-link:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
 .nav_end_btn {
     padding: 12px 20px;
     border: none;
@@ -77,7 +84,7 @@
 
 /* --------- hero section start -------------- */
 #hero_section {
-    height: 900px;
+    height: auto;
 }
 
 .plus_1,
@@ -132,8 +139,14 @@
 }
 
 .circle_2 {
-    top: 536px;
+    top: 556px;
     left: 316px;
+}
+
+.circle_3 {
+    top: 430px;
+    left: 570px;
+
 }
 
 .hero_header {
@@ -182,6 +195,49 @@
 .hero_desc {
     font-size: 24px;
     line-height: 33px;
+}
+
+.hero_use_btn {
+    padding: 12px 20px;
+    border-radius: 12px;
+    /* font-weight: 500; */
+    background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
+    box-shadow: 119px -84px 330px 73px rgba(235, 35, 178, 0.4);
+    z-index: 1;
+}
+
+
+.hero_right_card>.hero_card {
+    width: 221px;
+    box-shadow: -219px 50px 300px rgba(24, 56, 236, 1), 100px 150px 613px rgba(24, 56, 236, 0.); /* Adjusted vertical offset */
+}
+
+.hero_card {
+    width: 221px;
+    border-radius: 16px;
+    padding: 10px;
+    background: linear-gradient(to bottom right, rgba(27, 28, 54, 0.5), rgba(112, 113, 122, 0.5));
+    /* Adjusted vertical offset */
+    box-shadow: 219px 50px 300px rgba(24, 56, 236, 0.9), 100px 150px 613px rgba(24, 56, 236, 0.329);
+}
+
+.hero_card_img_div {
+    padding: 7px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+.hero_card_call_img {
+    width: 29px;
+    height: 29px;
+}
+
+.hero_card_title {
+    font-size: 14px;
+}
+
+.hero_card_info {
+    white-space: nowrap;
 }
 
 /* --------- hero section end -------------- */
