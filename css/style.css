@@ -85,6 +85,7 @@
 /* --------- hero section start -------------- */
 #hero_section {
     height: auto;
+    padding-bottom: 100px;
 }
 
 .plus_1,
@@ -153,7 +154,8 @@
     padding-top: 64px;
 }
 
-.hero_header>.nav_end_btn::before {
+.hero_header>.nav_end_btn::before,
+.service_header>.nav_end_btn::before {
     content: '';
     border-radius: 38px;
     position: absolute;
@@ -209,7 +211,8 @@
 
 .hero_right_card>.hero_card {
     width: 221px;
-    box-shadow: -219px 50px 300px rgba(24, 56, 236, 1), 100px 150px 613px rgba(24, 56, 236, 0.); /* Adjusted vertical offset */
+    box-shadow: -219px 50px 300px rgba(24, 56, 236, 1), 100px 150px 613px rgba(24, 56, 236, 0.);
+    /* Adjusted vertical offset */
 }
 
 .hero_card {
@@ -241,3 +244,31 @@
 }
 
 /* --------- hero section end -------------- */
+
+
+/* --------- service section start -------------- */
+#service_section {
+    padding: 100px 10px;
+}
+
+.service_section>.nav_end_btn {
+    padding: 5px 14px 7px 15px;
+}
+
+.service_section>.nav_end_btn::before {
+    box-shadow:
+        inset 0 0 10px rgba(221, 220, 220, 0.16),
+        0 2px 20px 2px rgba(243, 60, 191, 0.459);
+        cursor: alias;
+}
+
+.service_header_gradient {
+    background: linear-gradient(to right, rgba(108, 20, 250, 0.877), #8D1EA2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* For Firefox */
+    color: transparent;
+}
+
+/* --------- service section end -------------- */
