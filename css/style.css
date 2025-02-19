@@ -259,7 +259,7 @@
     box-shadow:
         inset 0 0 10px rgba(221, 220, 220, 0.16),
         0 2px 20px 2px rgba(243, 60, 191, 0.459);
-        cursor: alias;
+    cursor: alias;
 }
 
 .service_header_gradient {
@@ -270,5 +270,38 @@
     /* For Firefox */
     color: transparent;
 }
+
+.service_desc {
+    font-size: 24px;
+}
+
+/* .service_body{
+    gap: 24px;
+} */
+.service_card {
+    padding: 32px;
+    max-width: 424px;
+    width: 100%;
+    min-height: 350px;
+    background: #0E0C15;
+    border-radius: 32px;
+    position: relative;
+}
+
+
+.service_card::after {
+    content: '';
+    position: absolute;
+    height: 101%;
+    width: 101%;
+    background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 32px;
+}
+
 
 /* --------- service section end -------------- */
