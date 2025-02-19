@@ -292,8 +292,8 @@
 .service_card::after {
     content: '';
     position: absolute;
-    height: 100.5%;
-    width: 100.5%;
+    height: 101%;
+    width: 101%;
     background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
     top: 50%;
     left: 50%;
@@ -302,6 +302,11 @@
     padding: 3px;
     border-radius: 32px;
 }
+.service_card_title {
+    background-color: rgba(9, 12, 219, 0.238);
+    box-shadow: 100px 34px 150px 30px rgba(9, 14, 219, 0.4);
+}
+
 
 
 /* --------- service section end -------------- */
