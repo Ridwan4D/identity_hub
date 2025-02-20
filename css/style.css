@@ -378,6 +378,7 @@
     padding: 20px 17px 20px 16px;
     border-radius: 20px;
     background: linear-gradient(to bottom right, rgba(27, 28, 54, .4), rgba(112, 113, 122, .4));
+    border: 1px solid rgba(255, 255, 255, 0.178);
 }
 
 .choose_min_card_right {
@@ -400,5 +401,76 @@
     margin-bottom: 4px;
 }
 
-
 /* --------- choose section end -------------- */
+
+/* --------- pricing section start -------------- */
+#package_section {
+    padding: 100px 0;
+}
+
+.package_spring_img {
+    right: 15px;
+    top: -149px;
+}
+
+#package_section .package_circle_1 {
+    height: 5px;
+    width: 5px;
+    right: 385px;
+    top: -70px;
+}
+
+#package_section .package_circle_2 {
+    right: 310px;
+    top: 0px;
+}
+
+.pricing_body {
+    margin-top: 40px;
+}
+
+.pricing_card {
+    background: linear-gradient(to right, #00000069, #53546c49);
+    padding: 32px;
+    border-radius: 32px;
+}
+
+#pricing_section .choose_bg_item_div {
+    height: 40%;
+}
+
+.pricing_card_title {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.pricing_price {
+    font-size: 88px;
+    line-height: 88px;
+}
+
+.pricing_spand {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.pricing_list_item {
+    display: flex;
+    align-items: top;
+    gap: 10px;
+    font-weight: 400;
+    white-space: normal;
+}
+
+.pricing_list_item::before {
+    content: url('../images/choose/checkmark-circle-02.svg');
+}
+
+.list_border {
+    padding: 16px 0;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    border-left: none;
+    border-right: none;
+}
+
+/* --------- pricing section end -------------- */
