@@ -162,6 +162,11 @@
     .choose_card_images {
         width: 100%;
     }
-
     /* ------ choose section end -------- */
+    
+    /* ------ pricing section start -------- */
+    .pricing_price{
+        font-size: 56px;
+    }
+    /* ------ pricing section end -------- */
 }
