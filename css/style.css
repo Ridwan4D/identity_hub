@@ -302,11 +302,74 @@
     padding: 3px;
     border-radius: 32px;
 }
+
 .service_card_title {
-    background-color: rgba(9, 12, 219, 0.238);
+    background: rgba(9, 12, 219, 0.238);
     box-shadow: 100px 34px 150px 30px rgba(9, 14, 219, 0.4);
 }
 
-
-
 /* --------- service section end -------------- */
+
+/* --------- choose section start -------------- */
+#choose_section {
+    padding: 100px 0;
+}
+
+.choose_bg_item_div {
+    top: -20px;
+    z-index: -1;
+}
+
+.blue_bg_img {
+    opacity: .3;
+    filter: blur(80px);
+    rotate: -12deg;
+    z-index: -1;
+}
+
+.choose_bg_frame {
+    top: 220px;
+    left: 250px;
+}
+
+.choose_body {
+    margin-top: 40px;
+}
+
+.choose_big_card {
+    padding: 40px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(83, 84, 108, 0.5));
+    outline: none;
+    border: .4px solid rgba(0, 0, 255, 0.062);
+    border-left: none;
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    gap: 139px;
+}
+
+.choose_card_title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.choose_card_descs {
+    display: flex;
+    align-items: top;
+    gap: 10px;
+    font-weight: 400;
+    white-space: normal;
+}
+
+.choose_card_descs::before {
+    content: url('../images/choose/checkmark-circle-01.svg');
+}
+
+
+/* --------- choose section end -------------- */
+
+
+
+
+
+
+

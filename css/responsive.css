@@ -1,8 +1,11 @@
 @media (min-width:1880px) {
-    .ellips_15 {
+
+    .ellips_15,
+    .blue_bg_img {
         display: block !important;
     }
 }
+
 @media (min-width:769px)and(max-width:1200px) {
 
 
@@ -10,12 +13,13 @@
     #service_section {
         padding: 0px 15px;
     }
+
     /* service section end */
 }
 
-@media (min-width:601px)and(max-width:768px) {
+@media(max-width:768px) {
     .container {
-        padding: 0 10px;
+        padding: 0 10px !important;
     }
 
     .navbar {
@@ -32,12 +36,14 @@
     .hero_right_card>.hero_card {
         width: 70%;
     }
+
     /* hero section end */
 
     /* service section start */
     #service_section {
-        padding: 0px 15px;
+        padding: 0px 15px !important;
     }
+
     /* service section end */
 }
 
@@ -111,12 +117,38 @@
     .hero_right_card>.hero_card {
         width: 100%;
     }
+
     /* ------ hero section end -------- */
-    
-    
+
+
     /* ------ service section start -------- */
     #service_section {
         padding: 0px 15px;
     }
+
+    .service_desc {
+        font-size: 18px;
+    }
+
     /* ------ service section end -------- */
+
+    /* ------ choose section start -------- */
+    #choose_section {
+        padding: 40px 0 !important;
+    }
+
+    .choose_big_card {
+        padding: 7px;
+        gap: 30px;
+    }
+
+    .choose_card_descs {
+        font-size: 16px !important;
+    }
+
+    .choose_card_images {
+        width: 100%;
+    }
+
+    /* ------ choose section end -------- */
 }
