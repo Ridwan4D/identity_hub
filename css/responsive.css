@@ -6,7 +6,7 @@
     }
 }
 
-@media (min-width:769px)and(max-width:1200px) {
+@media(max-width:1200px) {
 
 
     /* service section start */
@@ -15,6 +15,12 @@
     }
 
     /* service section end */
+    /* choose section start */
+    .choose_big_card {
+        gap: 50px;
+    }
+
+    /* choose section end */
 }
 
 @media(max-width:768px) {
@@ -45,6 +51,13 @@
     }
 
     /* service section end */
+
+    /* choose section end */
+    .choose_big_card {
+        gap: 60px;
+    }
+
+    /* choose section end */
 }
 
 

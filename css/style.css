@@ -334,6 +334,7 @@
 
 .choose_body {
     margin-top: 40px;
+    gap: 40px;
 }
 
 .choose_big_card {
@@ -364,12 +365,40 @@
     content: url('../images/choose/checkmark-circle-01.svg');
 }
 
+.details_reporting_lists>.choose_card_descs::before {
+    content: url('../images/choose/checkmark-circle-02.svg');
+}
+
+.secure_all_lists>.choose_card_descs::before {
+    content: url('../images/choose/checkmark-circle-03.svg');
+}
+
+.choose_right_card {
+    width: 100%;
+    padding: 20px 17px 20px 16px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom right, rgba(27, 28, 54, .4), rgba(112, 113, 122, .4));
+}
+
+.choose_min_card_right {
+    gap: 20px;
+}
+
+.choose_card_img_div {
+    padding: 10px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.choose_card_sm_img {
+    width: 28px;
+    height: 28px;
+}
+
+.choose_right_card_title {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
 
 /* --------- choose section end -------------- */
-
-
-
-
-
-
-
