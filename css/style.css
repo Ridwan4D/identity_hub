@@ -560,3 +560,40 @@
 }
 
 /* --------- slider section end -------------- */
+
+/* --------- apart section start -------------- */
+.apart_content {
+    top: 500px;
+}
+
+.apart_title {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.apart_desc {
+    line-height: 32px;
+}
+
+.blur_bg_img {
+    max-width: 1030px;
+    max-height: 1000px;
+    opacity: .3;
+    top: 132px;
+    left: 100px;
+}
+
+.apart_title_span {
+    color: white !important;
+}
+
+.apart_title_span::after {
+    content: url('../images/Vector_2.svg');
+    width: 300px;
+    height: 6px;
+    position: absolute;
+    left: 38%;
+    top: 99px;
+}
+
+/* --------- apart section end -------------- */

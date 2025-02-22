@@ -21,6 +21,16 @@
     }
 
     /* choose section end */
+    /* ------ apart section start -------- */
+    .apart_content {
+        top: 100px;
+    }
+
+    .apart_title_span::after {
+        content: "";
+    }
+
+    /* ------ apart section end -------- */
 }
 
 @media(max-width:768px) {
@@ -69,6 +79,16 @@
     }
 
     /* testimonial section end */
+    /* ------ apart section start -------- */
+    .apart_content {
+        top: 0;
+    }
+
+    .apart_title_span::after {
+        content: "";
+    }
+
+    /* ------ apart section end -------- */
 }
 
 
@@ -207,4 +227,15 @@
     }
 
     /* ------ testimonial section end -------- */
+
+    /* ------ apart section start -------- */
+    .apart_content {
+        top: 0;
+    }
+
+    .apart_title_span::after {
+        content: "";
+    }
+
+    /* ------ apart section end -------- */
 }
