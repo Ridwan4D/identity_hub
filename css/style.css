@@ -404,7 +404,8 @@
 /* --------- choose section end -------------- */
 
 /* --------- pricing section start -------------- */
-#package_section {
+#package_section,
+#testimonial_section {
     padding: 100px 0;
 }
 
@@ -474,3 +475,91 @@
 }
 
 /* --------- pricing section end -------------- */
+
+
+/* --------- slider section student -------------- */
+.slider_item,
+.testimonial_container {
+    background: linear-gradient(to right, rgba(51, 51, 62, 0.192), rgba(83, 84, 108, 0.303));
+    border-radius: 20px;
+}
+
+.testimonial_container {
+    background: linear-gradient(to right, rgba(51, 51, 62, 0.096), rgba(83, 84, 108, 0.185));
+    padding: 40px;
+}
+
+.testimonial_post_date {
+    margin-bottom: 20px;
+    color: #9D9BA6;
+}
+
+.doot {
+    height: 6px;
+    width: 6px;
+    background-color: #9D9BA6;
+    border-radius: 100%;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+    opacity: 0.6;
+    width: 10px;
+    height: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    border: none;
+    /* Remove default border */
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+
+/* Adding a gradient border using a pseudo-element */
+.swiper-pagination-bullet-active::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 50%;
+    padding: 2px;
+    /* Thickness of the border */
+    background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
+    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
+.go_prev {
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+    border: 1px solid #686DFA9E;
+    background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
+    position: absolute;
+    z-index: 1;
+    top: 44%;
+    left: -30px;
+}
+
+.go_next {
+    height: 44px;
+    width: 44px;
+    border-radius: 100%;
+    border: 1px solid #686DFA9E;
+    background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    top: 44%;
+    right: -20px;
+}
+
+/* --------- slider section end -------------- */
