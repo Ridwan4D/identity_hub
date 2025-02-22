@@ -589,11 +589,19 @@
 
 .apart_title_span::after {
     content: url('../images/Vector_2.svg');
-    width: 300px;
     height: 6px;
     position: absolute;
     left: 38%;
     top: 99px;
 }
-
 /* --------- apart section end -------------- */
+
+/* --------- footer section start -------------- */
+#footer_section{
+    margin-top: 1200px;
+    padding: 40px;
+}
+.footer_list{
+    text-decoration: none;
+}
+/* --------- footer section end -------------- */
