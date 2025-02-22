@@ -1,6 +1,6 @@
 new Swiper('.swiper', {
     loop: true,
-    spaceBetween: 20,
+    // spaceBetween: 20,
 
     // If we need pagination
     pagination: {

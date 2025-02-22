@@ -537,14 +537,15 @@
     mask-composite: exclude;
 }
 
+.testimonial_review {
+    font-size: 20px;
+}
+
 .go_prev {
     height: 44px;
     width: 44px;
-    border-radius: 100%;
     border: 1px solid #686DFA9E;
     background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
-    position: absolute;
-    z-index: 1;
     top: 44%;
     left: -30px;
 }
@@ -552,12 +553,8 @@
 .go_next {
     height: 44px;
     width: 44px;
-    border-radius: 100%;
     border: 1px solid #686DFA9E;
     background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
-    position: absolute;
-    z-index: 1;
-    position: absolute;
     top: 44%;
     right: -20px;
 }

@@ -58,6 +58,17 @@
     }
 
     /* choose section end */
+
+    /* testimonial section start */
+    .go_prev {
+        left: 0px;
+    }
+
+    .go_next {
+        right: 0px;
+    }
+
+    /* testimonial section end */
 }
 
 
@@ -162,11 +173,38 @@
     .choose_card_images {
         width: 100%;
     }
+
     /* ------ choose section end -------- */
-    
+
     /* ------ pricing section start -------- */
-    .pricing_price{
+    .pricing_price {
         font-size: 56px;
     }
+
     /* ------ pricing section end -------- */
+
+
+    /* ------ testimonial section start -------- */
+    .testimonial_container {
+        padding: 1px;
+    }
+
+    .slider_item {
+        margin-right: 0 !important;
+        padding: 2px !important;
+    }
+
+    .testimonial_review {
+        font-size: 16px;
+    }
+
+    .go_prev {
+        left: 0px;
+    }
+
+    .go_next {
+        right: 0px;
+    }
+
+    /* ------ testimonial section end -------- */
 }
