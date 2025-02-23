@@ -6,7 +6,7 @@ serviceCards.forEach((card, index) => {
         if (serviceCardBlurs[index]) {
             serviceCardBlurs[index].style.filter = "blur(39px)";
             serviceCardBlurs[index].style.height = "100px";
-            serviceCardBlurs[index].style.width = "200px)";
+            serviceCardBlurs[index].style.width = "200px";
         }
     });
     
@@ -14,7 +14,7 @@ serviceCards.forEach((card, index) => {
         if (serviceCardBlurs[index]) {
             serviceCardBlurs[index].style.filter = "blur(20px)";
             serviceCardBlurs[index].style.height = "50px";
-            serviceCardBlurs[index].style.width = "100px)";
+            serviceCardBlurs[index].style.width = "100px";
         }
     });
 });

@@ -278,7 +278,7 @@
 .service_card_blur {
     height: 50px;
     width: 100px;
-    background: #1F1363;
+    background: #25128f;
     border-radius: 100%;
     filter: blur(20px);
     right: 12%;
