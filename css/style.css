@@ -278,13 +278,19 @@
 .service_card_blur {
     height: 50px;
     width: 100px;
-    background: #25128f;
+    background: #3518d8;
     border-radius: 100%;
     filter: blur(20px);
-    right: 12%;
-    top: 30%;
+    right: 35%;
+    top: 45%;
     z-index: 0;
-    transition: filter 0.3s ease-in-out;
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.service_card_blur.active {
+    filter: blur(39px);
+    transform: scale(1.4);
 }
 
 .service_desc {
