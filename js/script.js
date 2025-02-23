@@ -5,12 +5,14 @@ serviceCards.forEach((card, index) => {
     card.addEventListener('mouseenter', () => {
         if (serviceCardBlurs[index]) {
             serviceCardBlurs[index].classList.add("active");
+            serviceCardBlurs[index].classList.add("rotate-gradient");
         }
     });
 
     card.addEventListener('mouseleave', () => {
         if (serviceCardBlurs[index]) {
             serviceCardBlurs[index].classList.remove("active");
+            serviceCardBlurs[index].classList.remove("rotate-gradient")
         }
     });
 });

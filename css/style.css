@@ -68,6 +68,7 @@
     cursor: pointer;
     position: relative;
     z-index: 1;
+    transition: all .3s ease;
 }
 
 .nav_end_btn::before {
@@ -78,6 +79,10 @@
     background-color: #0E0C15;
     box-shadow: inset 0 0 10px rgba(221, 220, 220, 0.16);
     z-index: -1;
+}
+
+.nav_end_btn:hover {
+    box-shadow: inset 10px 10px 10px rgba(247, 15, 247, 0.308);
 }
 
 /* --------- navbar section end -------------- */
@@ -115,7 +120,7 @@
 }
 
 .ellips_15 {
-    /* width: 100%; */
+
     top: -25px;
     left: 326px;
 }
@@ -147,8 +152,19 @@
 .circle_3 {
     top: 430px;
     left: 570px;
-
 }
+
+.hero_bg_blur_div {
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(30deg, #090EDB 45%, #DA24BB 30%);
+    border-radius: 100%;
+    filter: blur(195px);
+    top: 41%;
+    left: 32%;
+    z-index: -1;
+}
+
 
 .hero_header {
     padding-top: 64px;
@@ -167,12 +183,59 @@
     z-index: -1;
 }
 
+@keyframes width_control {
+    0% {
+        left: 58%;
+        width: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    50% {
+        left: 58%;
+        width: 184px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    75% {
+        left: 58%;
+        width: 264px;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    100% {
+        left: 100%;
+        width: 0;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 .hero_title {
     font-size: 60px;
     line-height: 72px;
     background: linear-gradient(to bottom, #F33CC0, #4349FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.hero_curb_underline {
+    position: absolute;
+    bottom: -10px;
+    left: 58%;
+    width: 0;
+    height: 6px;
+    opacity: 0;
+    visibility: hidden;
+    /* background: linear-gradient(to right, #F33CC0, #4349FF); */
+    transform-origin: left;
+}
+
+.hero_title:hover .hero_curb_underline {
+    animation: width_control 3s linear 1 forwards;
 }
 
 .hero_title_span {
@@ -185,14 +248,14 @@
     -webkit-text-fill-color: transparent;
 }
 
-.hero_title_span::after {
+/* .hero_title_span::after {
     content: url('../images/curb_underline.svg');
-    width: 264px;
+    width: 24px;
     height: 6px;
     position: absolute;
     left: -17px;
     top: 28px;
-}
+} */
 
 .hero_desc {
     font-size: 24px;
@@ -202,17 +265,18 @@
 .hero_use_btn {
     padding: 12px 20px;
     border-radius: 12px;
-    /* font-weight: 500; */
     background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
-    box-shadow: 119px -84px 330px 73px rgba(235, 35, 178, 0.4);
     z-index: 1;
+    transition: all 0.3s ease;
 }
 
+.hero_use_btn:hover {
+    background: linear-gradient(to right, var(--gradient-two), var(--gradient-one));
+}
 
 .hero_right_card>.hero_card {
     width: 221px;
-    box-shadow: -219px 50px 300px rgba(24, 56, 236, 1), 100px 150px 613px rgba(24, 56, 236, 0.);
-    /* Adjusted vertical offset */
+
 }
 
 .hero_card {
@@ -220,8 +284,6 @@
     border-radius: 16px;
     padding: 10px;
     background: linear-gradient(to bottom right, rgba(27, 28, 54, 0.5), rgba(112, 113, 122, 0.5));
-    /* Adjusted vertical offset */
-    box-shadow: 219px 50px 300px rgba(24, 56, 236, 0.9), 100px 150px 613px rgba(24, 56, 236, 0.329);
 }
 
 .hero_card_img_div {
@@ -271,7 +333,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* For Firefox */
+
     color: transparent;
 }
 
@@ -297,9 +359,6 @@
     font-size: 24px;
 }
 
-/* .service_body{
-    gap: 24px;
-} */
 .service_card {
     padding: 32px;
     max-width: 424px;
@@ -310,7 +369,6 @@
     border-top-right-radius: 60px;
     position: relative;
 }
-
 
 .service_card::after {
     content: '';
@@ -429,7 +487,7 @@
 }
 
 .package_spring_img {
-    right: 15px;
+    right: 40px;
     top: -149px;
 }
 
@@ -528,7 +586,7 @@
     transition: all 0.3s ease;
     position: relative;
     border: none;
-    /* Remove default border */
+
 }
 
 .swiper-pagination-bullet-active {
@@ -549,7 +607,7 @@
     bottom: -2px;
     border-radius: 50%;
     padding: 2px;
-    /* Thickness of the border */
+
     background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
     -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
     -webkit-mask-composite: destination-out;
@@ -668,3 +726,16 @@
 }
 
 /* --------- footer section end -------------- */
+
+
+
+.rotate_360 {
+    animation: spin 8s linear infinite;
+}
+
+/* ======= animation ========== */
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

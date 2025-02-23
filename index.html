@@ -31,13 +31,13 @@
                 id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto d-lg-flex gap-1 gap-md-2 gap-lg-4">
                     <li class="nav-item active">
-                        <a class="nav-link font_aeonik primary_color" href="#">Services</a>
+                        <a class="nav-link font_aeonik primary_color" href="#service_section">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font_aeonik primary_color" href="#">Features</a>
+                        <a class="nav-link font_aeonik primary_color" href="#choose_section">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font_aeonik primary_color" href="#">Pricing</a>
+                        <a class="nav-link font_aeonik primary_color" href="#package_section">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link font_aeonik primary_color" href="#">Partners</a>
@@ -71,7 +71,8 @@
             <img src="./images/hero_circle_2.svg" alt="orbit electron image" class="position-absolute circle_3">
             <img src="./images/hero_circle_3.svg" alt="orbit electron image"
                 class="position-absolute circle_2 d-none d-xxl-block">
-            <div class="container hero_container">
+            <div class="container hero_container position-relative">
+                <div class="hero_bg_blur_div position-absolute"></div>
                 <div class="d-flex flex-column justify-content-center align-items-center text-center hero_header rwo">
                     <button
                         class="text-white bg-transparent nav_end_btn d-flex justify-content-center align-items-center gap-1 py-2 px-3 rounded-5">Secure
@@ -79,6 +80,8 @@
                     <h1 class="hero_title fw-semibold col-10 col-xl-8 mb-4 font_sora">Identity-hub is a better way to
                         achieve
                         <span class="hero_title_span">privacy</span>
+                        <img src="images/curb_underline.svg" alt="hero curb underline"
+                            class="hero_curb_underline position-absolute">
                     </h1>
                     <p class="hero_desc col-11 col-md-8 mb-4 primary_color fw-normal font_aeonik">
                         Make your data invisible by
@@ -427,7 +430,8 @@
             <div class="position-relative d-block w-100">
                 <img src="images/hero_circle_1.svg" alt="circle_1" class="position-absolute package_circle_1">
                 <img src="images/hero_circle_2.svg" alt="circle_2" class="position-absolute package_circle_2">
-                <img src="images/spring_img.svg" alt="gradient spring" class="position-absolute package_spring_img">
+                <img src="images/spring_img.svg" alt="gradient spring"
+                    class="position-absolute package_spring_img rotate_360">
             </div>
             <div class="container package_container position-relative">
                 <div class="choose_bg_item_div position-absolute z-n1">
@@ -667,14 +671,14 @@
         <!-- top -->
         <div class="footer_top d-flex flex-column gap-4 flex-md-row justify-content-between align-items-md-center">
             <div class="logo">
-                <a class="navbar-brand text-white d-flex gap-2" href="#"><img src="./images/site-logo.svg" alt=""><span
-                        class="font_source_code fw-bold">IdentityHub</span>
+                <a class="navbar-brand text-white d-flex gap-2" href="#"><img src="./images/site-logo.svg"
+                        alt="logo"><span class="font_source_code fw-bold">IdentityHub</span>
                 </a>
             </div>
             <ul class="d-flex flex-column flex-md-row gap-3 gap-lg-5 footer_list ps-0">
-                <li><a href="#" class="footer_list_item">FEATURES</a></li>
-                <li><a href="#" class="footer_list_item">SERVICES</a></li>
-                <li><a href="#" class="footer_list_item">PRICING</a></li>
+                <li><a href="#choose_section" class="footer_list_item">FEATURES</a></li>
+                <li><a href="#service_section" class="footer_list_item">SERVICES</a></li>
+                <li><a href="#package_section" class="footer_list_item">PRICING</a></li>
                 <li><a href="#" class="footer_list_item">HOW TO USE</a></li>
             </ul>
         </div>
@@ -683,10 +687,10 @@
         <div class="footer_bottom d-flex flex-column flex-md-row justify-content-between">
             <p class="copy_right font_sora primary_color">© identityhub 2024. All rights reserved</p>
             <div class="d-flex footer_links font_sora primary_color">
-                <a href="#"><img src="images/twitter.svg" alt=""></a>
-                <a href="#"><img src="images/insta.svg" alt=""></a>
-                <a href="#"><img src="images/telegram.svg" alt=""></a>
-                <a href="#"><img src="images/facebook.svg" alt=""></a>
+                <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                <a href="#"><img src="images/insta.svg" alt="instagram"></a>
+                <a href="#"><img src="images/telegram.svg" alt="telegram"></a>
+                <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
             </div>
         </div>
     </footer>
