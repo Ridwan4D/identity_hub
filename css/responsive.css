@@ -6,11 +6,19 @@
     }
 }
 
+@media(max-width:1440px) {
+    /* .apart_content {
+        top: 500px;
+        left: 10%;
+    } */
+}
+
 @media(max-width:1200px) {
 
 
     /* service section start */
-    #service_section {
+    #service_section,
+    #testimonial_section {
         padding: 0px 15px;
     }
 
@@ -21,6 +29,14 @@
     }
 
     /* choose section end */
+
+    /* pricing section start */
+    .pricing_price {
+        font-size: 60px;
+    }
+
+    /* pricing section end */
+
     /* ------ apart section start -------- */
     .apart_content {
         top: 100px;
@@ -31,6 +47,13 @@
     }
 
     /* ------ apart section end -------- */
+
+    /* ------ footer section start -------- */
+    #footer_section {
+        margin-top: 0px;
+    }
+
+    /* ------ footer section end -------- */
 }
 
 @media(max-width:768px) {
@@ -40,6 +63,9 @@
 
     .navbar {
         margin: 0 10px;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0;
     }
 
     /* hero section start */
@@ -80,8 +106,17 @@
 
     /* testimonial section end */
     /* ------ apart section start -------- */
+    #apart_section {
+        padding: 75px 0 !important;
+        margin-top: 70px;
+    }
+
     .apart_content {
         top: 0;
+    }
+
+    .apart_bg_container {
+        left: 24%;
     }
 
     .apart_title_span::after {
@@ -89,6 +124,17 @@
     }
 
     /* ------ apart section end -------- */
+
+    /* ------ footer section start -------- */
+    #footer_section {
+        margin-top: 0px;
+    }
+
+    .footer_list {
+        margin: 0;
+    }
+
+    /* ------ footer section end -------- */
 }
 
 
@@ -194,6 +240,11 @@
         width: 100%;
     }
 
+    .package_spring_img {
+        top: -126px;
+        width: 30%;
+    }
+
     /* ------ choose section end -------- */
 
     /* ------ pricing section start -------- */
@@ -211,7 +262,7 @@
 
     .slider_item {
         margin-right: 0 !important;
-        padding: 2px !important;
+        padding: 10px !important;
     }
 
     .testimonial_review {
@@ -229,20 +280,34 @@
     /* ------ testimonial section end -------- */
 
     /* ------ apart section start -------- */
-    #apart_section{
-        padding: 20px 0 !important;
+    #apart_section {
+        padding: 55px 0 !important;
+        margin-top: 35px;
     }
+
     .apart_content {
         top: 0;
+    }
+
+    .apart_bg_container {
+        left: -19px;
     }
 
     .apart_title_span::after {
         content: "";
     }
+
     .apart_title {
         font-size: 45px;
         line-height: 55px;
     }
 
     /* ------ apart section end -------- */
+
+    /* ------ footer section start -------- */
+    #footer_section {
+        margin-top: 0px;
+    }
+
+    /* ------ footer section end -------- */
 }
