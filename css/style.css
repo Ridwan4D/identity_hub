@@ -322,6 +322,10 @@
 
     color: transparent;
 }
+.service_card_title{
+    font-size: 28px;
+    line-height: 33px;
+}
 
 .service_card_blur {
     height: 50px;
