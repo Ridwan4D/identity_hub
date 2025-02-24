@@ -325,6 +325,7 @@
 .service_card_title{
     font-size: 28px;
     line-height: 33px;
+    font-weight: 500;
 }
 
 .service_card_blur {
