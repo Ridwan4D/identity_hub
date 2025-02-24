@@ -717,13 +717,16 @@
 
 /* --------- footer section end -------------- */
 
+.rotate_360 {
+    animation: spin 10s linear infinite;
+}
 .rotate_360_N {
     animation: spin_reverse 20s linear infinite;
 }
 
 
 /* ======= animation ========== */
-/* @keyframes spin {
+@keyframes spin {
     100% {
         transform: rotate(360deg);
     }
@@ -733,4 +736,4 @@
     100% {
         transform: rotate(-360deg);
     }
-} */
+}
