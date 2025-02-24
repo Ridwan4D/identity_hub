@@ -155,11 +155,11 @@
 }
 
 .hero_bg_blur_div {
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     background: linear-gradient(30deg, #090EDB 45%, #DA24BB 30%);
     border-radius: 100%;
-    filter: blur(195px);
+    filter: blur(250px);
     top: 41%;
     left: 32%;
     z-index: -1;
@@ -179,7 +179,7 @@
     background-color: #0E0C15;
     box-shadow:
         inset 0 0 10px rgba(221, 220, 220, 0.16),
-        0 4px 60px 10px rgba(243, 60, 191, 0.459);
+        0 4px 40px 10px rgba(209, 209, 209, 0.13);
     z-index: -1;
 }
 
@@ -264,17 +264,17 @@
 .hero_use_btn:hover {
     background: linear-gradient(to right, var(--gradient-two), var(--gradient-one));
 }
+
 .hero_card {
-    width: 221px;
     height: 64px;
     border-radius: 16px;
     padding: 10px;
-    background: linear-gradient(to bottom right, rgba(27, 28, 54, 0.5), rgba(112, 113, 122, 0.5));
+    background: linear-gradient(to bottom right, rgba(27, 28, 54, 0.4), rgba(112, 113, 122, 0.4));
 }
 
 .hero_card_img_div {
     padding: 7px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(143, 143, 143, 0.349);
     border-radius: 12px;
 }
 
@@ -322,7 +322,8 @@
 
     color: transparent;
 }
-.service_card_title{
+
+.service_card_title {
     font-size: 28px;
     line-height: 33px;
     font-weight: 500;
@@ -721,6 +722,7 @@
 .rotate_360 {
     animation: spin 10s linear infinite;
 }
+
 .rotate_360_N {
     animation: spin_reverse 20s linear infinite;
 }
