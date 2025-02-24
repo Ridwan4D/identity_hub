@@ -15,7 +15,6 @@
 
 @media(max-width:1200px) {
 
-
     /* service section start */
     #service_section,
     #testimonial_section {
@@ -69,6 +68,12 @@
     }
 
     /* hero section start */
+    .hero_bg_blur_div {
+        height: 500px;
+        width: 90%;
+        left: 0;
+    }
+
     .hero_title {
         font-size: 49px;
         line-height: 67px;
@@ -167,6 +172,12 @@
     /* ------ navbar end -------- */
 
     /* ------ hero section start -------- */
+    .hero_bg_blur_div {
+        height: 500px;
+        width: 100%;
+        left: 0;
+    }
+
     .hero_header {
         padding-top: 35px;
     }
