@@ -264,27 +264,12 @@
 .hero_use_btn:hover {
     background: linear-gradient(to right, var(--gradient-two), var(--gradient-one));
 }
-
-.hero_card_sub_container {
-    height: 445px;
-}
-
-.hero_gradient_bg {
-    padding: 180px;
-    animation: spin 20s linear infinite;
-}
-
-.productivity_img {
-    width: 320px;
-}
-
 .hero_card {
     width: 221px;
     height: 64px;
     border-radius: 16px;
     padding: 10px;
     background: linear-gradient(to bottom right, rgba(27, 28, 54, 0.5), rgba(112, 113, 122, 0.5));
-    animation: spin_reverse 20s linear infinite;
 }
 
 .hero_card_img_div {
