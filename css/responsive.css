@@ -266,6 +266,7 @@
 
     .choose_card_descs {
         font-size: 16px !important;
+        white-space: normal;
     }
 
     .choose_card_images {
@@ -294,19 +295,25 @@
 
     .slider_item {
         margin-right: 0 !important;
-        padding: 10px !important;
+        padding: 16px !important;
     }
 
     .testimonial_review {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .go_prev {
-        left: 0px;
+        left: -15px;
     }
 
     .go_next {
-        right: 0px;
+        right: -15px;
+    }
+
+    .slide_next_img,
+    .slide_prev_img {
+        width: 5px;
+        margin-bottom: 5px;
     }
 
     /* ------ testimonial section end -------- */
@@ -342,4 +349,8 @@
     }
 
     /* ------ footer section end -------- */
+    .common_slide_btn {
+        height: 20px;
+        width: 20px;
+    }
 }
