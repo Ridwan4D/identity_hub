@@ -699,10 +699,17 @@
 
 
 .rotate_360_div {
-    margin-top: 120px;
-    width: 700px;
-    height: 500px;
+    margin-top: 50px;
+    width: 435px;
+    height: 400px;
     /* background: red; */
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4 {
+    width: 40%;
 }
 
 .card_1 {
