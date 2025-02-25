@@ -60,6 +60,22 @@
     /* ------ footer section end -------- */
 }
 
+@media(max-width:991px) {
+    .rotate_360_div {
+        margin-top: 60px;
+        width: 450px;
+        height: 450px;
+        /* background: red; */
+    }
+
+    .card_1,
+    .card_2,
+    .card_3,
+    .card_4 {
+        width: 40%;
+    }
+}
+
 @media(max-width:768px) {
     .container {
         padding: 0 10px !important;
@@ -87,20 +103,6 @@
     .hero_card,
     .hero_right_card>.hero_card {
         width: 70%;
-    }
-
-    .rotate_360_div {
-        margin-top: 60px;
-        width: 450px;
-        height: 450px;
-        /* background: red; */
-    }
-
-    .card_1,
-    .card_2,
-    .card_3,
-    .card_4 {
-        width: 40%;
     }
 
     /* hero section end */
