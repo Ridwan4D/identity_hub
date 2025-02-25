@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* *,::after,::before{
-    border: 1px solid red;
+    border: 1px solid cyan;
 } */
 
 :root {
@@ -506,7 +506,7 @@
 
 .list_border {
     padding: 16px 0;
-    border: 1px solid rgba(255, 255, 255, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.158);
     border-left: none;
     border-right: none;
 }
