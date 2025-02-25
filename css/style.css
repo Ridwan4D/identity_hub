@@ -691,8 +691,43 @@
 /* --------- footer section end -------------- */
 /* common btn */
 .common_b_gradient_btn {
-    padding: 5px 14px 7px 15px !important;
+    padding: 4px 15px;
+    border-radius: 38px;
+    border: none;
+    background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
+    position: relative;
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(247, 246, 247, 0.199);
+    /* Soft shadow */
 }
+
+.common_b_gradient_btn::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: 40px;
+    background: linear-gradient(to right, var(--gradient-one), var(--gradient-two));
+    z-index: -2;
+}
+
+.common_b_gradient_btn::after {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    border-radius: 36px;
+    background: #0E0C15;
+    z-index: -1;
+}
+
+/* Hover Effect */
+.common_b_gradient_btn:hover {
+    box-shadow: 0px 6px 18px rgba(218, 36, 187, 0.25);
+}
+
+
 
 /* common btn */
 
